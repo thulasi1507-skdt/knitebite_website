@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*nav bar section code*/
+nav{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    padding-left: 4rem;
+}
+.navlinks ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    width: 100%;
+    margin-right: 5rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header-home{
+    background: url(./about1.webp)no-repeat center/cover;
+    height: 100vh;
+    color: white;
+}
+.page1{
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 4rem;
+    margin-right: 50rem;
+    align-content: center;
+    padding-top: 13rem;
+    font-family: cursive;
+}
+.page2{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image1{
+    width: 90%;
+    padding-top: 6.5rem;
+    padding-left: 12rem;
+    margin-bottom: 11rem;
+}
+.text1{
+    margin-left:6.5rem ;
+    font-size:25px;
+    line-height: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text2{
+    margin-left:6.5rem ;
+    font-size:25px;
+    line-height: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4rem;
+    margin-right: 2rem;
+}
+.text3{
+    margin-top: 6.5rem;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    line-height: 2rem;
+    margin-right: 2rem;
+}
+.image2{
+ width: 85%;
+ margin-left: 1rem;
+ margin-top: 3.5rem;
+ margin-bottom: 2rem;
+}
+.page3{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image3{
+    width: 80%;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+.locate{
+    margin-left: 7rem;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4rem;
+}
+.place{
+    margin-left: 7rem;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4rem;
+}
+.text4{
+    margin-top: 14rem;
+    margin-right: 6rem;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2rem;
+}
+.follow{
+    margin-top: 16rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image4{
+    width: 50px;
+    margin-right: 2rem;
+    margin-top: 0;
+
+}
+.footer-end{
+    margin-top: 3rem;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right,violet,hotpink);
+}
